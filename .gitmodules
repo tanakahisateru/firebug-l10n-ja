@@ -1,0 +1,3 @@
+[submodule "firebug"]
+	path = firebug
+	url = https://github.com/firebug/firebug.git
