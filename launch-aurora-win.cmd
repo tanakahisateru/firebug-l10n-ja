@@ -35,6 +35,6 @@ copy /b /y ja-JP\* firebug\extension\locale\ja-JP\
 %AURORA% %AURORA_OPTS% -profile "%~dp0profile"
 
 pushd firebug
-    git checkout -- extension\locale\ja-JP\*
     git clean -f -- extension\locale\ja-JP\*
+    git checkout -- extension\locale\ja-JP\*
 popd
